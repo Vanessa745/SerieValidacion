@@ -98,3 +98,27 @@ footer {
 footer p {
     font-weight: normal;
 }
+
+@media screen and (max-width: 450px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 1.1rem;
+    }
+
+    .opcion {
+        font-size: 1rem;
+    }
+
+    .container input {
+        font-size: 1rem;
+        width: 90%;
+    }
+
+    .container button {
+        font-size: 1rem;
+        padding: 8px 20px;
+    }
+}
