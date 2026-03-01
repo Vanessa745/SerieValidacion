@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Principal</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <header>
+        <h1>Validación Series</h1>
+    </header>
+    
+    <main>
+        <p>Verifica si deberías aceptar el billete con su correspondiente serie</p>
+        <form id="form-serie">
+            <p>Selecciona el monto del billete:</p>
+
+            <div class="contenedor">
+                <div class="opcion">
+                    <input type="radio" name="monto" value="10" id="10bs">
+                    <label for="10bs">10 Bs.</label>
+                </div>
+
+                <div class="opcion">
+                    <input type="radio" name="monto" value="20" id="20bs">
+                    <label for="20bs">20 Bs.</label>
+                </div>
+
+                <div class="opcion">
+                    <input type="radio" name="monto" value="50" id="50bs">
+                    <label for="50bs">50 Bs.</label>
+                </div>
+            </div>
+
+            <p>Ingresa el número de serie:</p>
+
+            <div class="container">
+                <input type="number" placeholder="Número de serie" id="serie">
+
+                <button type="submit">Verificar</button>
+            </div>
+        </form>
+
+        <div id="resultado">
+            <!-- <p>El billete es válido, puedes aceptarlo</p> -->
+        </div>
+    </main>
+
+    <footer>
+        <p>Derechos reservados</p>
+    </footer>
+
+    <script type="module" src="./js/script.js"></script>
+</body>
+</html>
